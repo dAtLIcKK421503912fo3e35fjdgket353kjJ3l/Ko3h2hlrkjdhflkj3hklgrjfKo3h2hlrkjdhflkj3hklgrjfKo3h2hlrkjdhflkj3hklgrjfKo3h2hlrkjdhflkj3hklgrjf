@@ -8,6 +8,15 @@
     <link rel="stylesheet" href="style.css">
   </head>
   <body>
-	  <button type="submit">Login<\button>
+    <main id="main-holder">
+      <h1 id="login-header">Login</h1>
+      <div id="login-error-msg-holder">
+        <p id="login-error-msg"> Invalid password. </p>
+      </div>
+      <form id="login-form" class="input">
+        <input type="password" class="login-form-field" name="login" id="password-field" placeholder="Enter Password..." required />
+        <input type="submit" id="login-form-submit" value="Submit" />
+      </form>
+    </main>
   </body>
 </html>
