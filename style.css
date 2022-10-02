@@ -45,6 +45,10 @@ body {
   opacity: 0;
 }
 
+#error-msg-second-line {
+  display: block;
+}
+
 #login-form {
   align-self: flex-start;
   display: grid;
