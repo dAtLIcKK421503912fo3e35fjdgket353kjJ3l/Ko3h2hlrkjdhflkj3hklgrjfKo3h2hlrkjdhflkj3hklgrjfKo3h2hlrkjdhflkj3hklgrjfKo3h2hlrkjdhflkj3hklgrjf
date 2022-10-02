@@ -10,7 +10,7 @@ loginButton.addEventListener("click", (e) => {
    const password = loginForm.password.value;
    if (username === "ls120cbaJp" && password === decoded-password) {
       alert("You have successfully logged in.");
-      window.location.replace("unity.html");
+      window.location.href("unity.html");
    } else {
       loginErrorMsg.style.opacity = 1;
    }
