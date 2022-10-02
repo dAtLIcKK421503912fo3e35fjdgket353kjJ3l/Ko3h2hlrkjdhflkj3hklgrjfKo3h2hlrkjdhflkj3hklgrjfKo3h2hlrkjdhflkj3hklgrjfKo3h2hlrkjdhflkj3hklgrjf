@@ -7,7 +7,7 @@ let decoded - password = window.atob(encoded - password);
 loginButton.addEventListener("click", (e) => {
    e.preventDefault();
    const password = loginForm.password.value;
-   if (password === decoded - password) {
+   if (username === "ls120cbaJp" && password === decoded-password) {
       alert("You have successfully logged in.");
       window.location.replace("unity.html");
    } else {
