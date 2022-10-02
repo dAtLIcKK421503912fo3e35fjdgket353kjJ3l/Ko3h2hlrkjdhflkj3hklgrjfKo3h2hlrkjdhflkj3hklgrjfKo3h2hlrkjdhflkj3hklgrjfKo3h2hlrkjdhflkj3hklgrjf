@@ -1,14 +1,14 @@
 const loginForm = document.getElementById("login-form");
 const loginButton = document.getElementById("login-form-submit");
 const loginErrorMsg = document.getElementById("login-error-msg");
-let encoded-password = ("YTI5NWU0MiFAc2xvcEVHYW1lISQ=");
-let decoded-password = window.btoa(encoded-password);
+let encodedPassword = ("YTI5NWU0MiFAc2xvcEVHYW1lISQ=");
+let decodedPassword = window.btoa(encodedPassword);
 //a295e42!@slopEGame!$
 loginButton.addEventListener("click", (e) => {
    e.preventDefault();
    const username = loginForm.username.value;
    const password = loginForm.password.value;
-   if (username === "ls120cbaJp" && password === decoded-password) {
+   if (username === "ls120cbaJp" && password === decodedPassword) {
       alert("You have successfully logged in.");
       window.location.href("unity.html");
    } else {
