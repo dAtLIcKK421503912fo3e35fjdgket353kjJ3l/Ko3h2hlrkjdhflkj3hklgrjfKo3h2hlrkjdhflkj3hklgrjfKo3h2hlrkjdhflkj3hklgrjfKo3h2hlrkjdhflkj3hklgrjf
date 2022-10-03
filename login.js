@@ -12,7 +12,7 @@ loginButton.addEventListener("click", (e) => {
    
    const password = loginForm.password.value;
    
-   if (username === "ls120cbaJp" && password === "a295e42!@slopEGame!$") {
+   if (username === "ls120cbaJp" && password === decodedPasword) {
       
       alert("You have successfully logged in.");
       
