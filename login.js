@@ -10,7 +10,7 @@ loginButton.addEventListener("click", (e) => {
    const password = loginForm.password.value;
    if (username === "ls120cbaJp" && password === "a295e42!@slopEGame!$") {
       alert("You have successfully logged in.");
-      document.cookie(login=True)
+      document.cookie = "login=True";
       let loginTrue = getCookie("login");
       if (loginTrue === "True") {
          window.location.replace("https://datlickk421503912fo3e35fjdgket353kjj3l.github.io/Ko3h2hlrkjdhflkj3hklgrjfKo3h2hlrkjdhflkj3hklgrjfKo3h2hlrkjdhflkj3hklgrjfKo3h2hlrkjdhflkj3hklgrjf/unity.html")
