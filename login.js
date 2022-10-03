@@ -10,7 +10,7 @@ loginButton.addEventListener("click", (e) => {
    const password = loginForm.password.value;
    if (username === "ls120cbaJp" && password === "a295e42!@slopEGame!$") {
       alert("You have successfully logged in.");
-      window.location.href("unity.html");
+      window.location.refresh("unity.html");
    } else {
       loginErrorMsg.style.opacity = 1;
    }
