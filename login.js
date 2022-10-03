@@ -2,7 +2,7 @@ const loginForm = document.getElementById("login-form");
 const loginButton = document.getElementById("login-form-submit");
 const loginErrorMsg = document.getElementById("login-error-msg");
 let encodedPassword = ("YTI5NWU0MiFAc2xvcEVHYW1lISQ=");
-let decodedPassword = window.btoa(encodedPassword)
+let decodedPassword = window.atob(encodedPassword)
 
 loginButton.addEventListener("click", (e) => {
    
