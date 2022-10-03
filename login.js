@@ -13,7 +13,7 @@ loginButton.addEventListener("click", (e) => {
       document.cookie = "login=True";
       let loginTrue = getCookie("login");
       alert(loginTrue);
-      if (loginTrue === "login=True") {
+      if (loginTrue === "True") {
          window.location.replace("https://datlickk421503912fo3e35fjdgket353kjj3l.github.io/Ko3h2hlrkjdhflkj3hklgrjfKo3h2hlrkjdhflkj3hklgrjfKo3h2hlrkjdhflkj3hklgrjfKo3h2hlrkjdhflkj3hklgrjf/unity.html");
          //figure out how to delete the cookie here so you can't access again (security)
       } else {
