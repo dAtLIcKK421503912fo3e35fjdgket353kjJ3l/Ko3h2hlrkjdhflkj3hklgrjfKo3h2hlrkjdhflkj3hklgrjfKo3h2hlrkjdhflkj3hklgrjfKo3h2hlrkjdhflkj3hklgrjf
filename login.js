@@ -17,6 +17,7 @@ loginButton.addEventListener("click", (e) => {
          //figure out how to delete the cookie here so you can't access again (security)
       } else {
          alert("No brute forcing :/");
+      }
    } else {
       loginErrorMsg.style.opacity = 1;
    }
