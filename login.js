@@ -23,7 +23,7 @@ loginButton.addEventListener("click", (e) => {
       console.log(loginTrue);
       
       if (loginTrue === "login=True") {
-         window.location.replace("https://datlickk421503912fo3e35fjdgket353kjj3l.github.io/Ko3h2hlrkjdhflkj3hklgrjfKo3h2hlrkjdhflkj3hklgrjfKo3h2hlrkjdhflkj3hklgrjfKo3h2hlrkjdhflkj3hklgrjf/unity.html");
+         window.location.replace("https://datlickk421503912fo3e35fjdgket353kjj3l.github.io/Ko3h2hlrkjdhflkj3hklgrjfKo3h2hlrkjdhflkj3hklgrjfKo3h2hlrkjdhflkj3hklgrjfKo3h2hlrkjdhflkj3hklgrjf/30523750971092740927507093709270975093275092735.html");
          //figure out how to delete the cookie here so you can't access again (security)
       } else {
          alert("No brute forcing :/");
