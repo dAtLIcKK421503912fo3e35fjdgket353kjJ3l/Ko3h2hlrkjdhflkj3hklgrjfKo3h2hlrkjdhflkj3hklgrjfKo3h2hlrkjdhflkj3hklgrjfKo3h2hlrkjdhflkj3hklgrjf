@@ -18,7 +18,7 @@ loginButton.addEventListener("click", (e) => {
       
       document.cookie = "login=True";
       
-      let loginTrue = getCookie("login");
+      let loginTrue = document.cookie;
       
       console.log(loginTrue);
       
